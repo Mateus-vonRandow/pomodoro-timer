@@ -3,7 +3,7 @@ const pause= document.getElementById("pause");
 const reset = document.getElementById("reset");
 const timer = document.getElementById("timer");
 
-let timeLeft = 10;
+let timeLeft = 1500;
 let interval;
 
 start.addEventListener("click", function() {
